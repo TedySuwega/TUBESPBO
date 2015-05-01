@@ -89,8 +89,8 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="labelJudul" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Component id="tab" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tab" min="-2" pref="689" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jPanel15" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -283,7 +283,7 @@
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="cbMenu2" pref="427" max="32767" attributes="0"/>
+                              <Component id="cbMenu2" pref="434" max="32767" attributes="0"/>
                               <Component id="inputMenu" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -513,7 +513,7 @@
                               </Group>
                               <Component id="submit" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="0" pref="7" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
