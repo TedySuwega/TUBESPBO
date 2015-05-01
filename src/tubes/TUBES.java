@@ -19,6 +19,7 @@ public class TUBES {
         System.out.println(" tes commit tedy");
         System.out.println(" tes commit tedy 2");
         System.out.println(" tes commit tedy 3");
+        System.out.println(" coba lagi");
     }
     
 }

@@ -16,8 +16,8 @@ public class GUITubes extends javax.swing.JFrame {
      */
     public GUITubes() {
         initComponents();
+        
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -146,6 +146,12 @@ public class GUITubes extends javax.swing.JFrame {
 
         jLabel27.setText("Tempat");
 
+        inputRestoran.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inputRestoranActionPerformed(evt);
+            }
+        });
+
         buatRestoran.setText("Buat");
         buatRestoran.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +159,19 @@ public class GUITubes extends javax.swing.JFrame {
             }
         });
 
+        inputTempat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inputTempatActionPerformed(evt);
+            }
+        });
+
         jLabel32.setText("Pajak");
+
+        inputPajak.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inputPajakActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -231,7 +249,7 @@ public class GUITubes extends javax.swing.JFrame {
                     .addComponent(jLabel29))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(cbMenu2, 0, 434, Short.MAX_VALUE)
+                    .addComponent(cbMenu2, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(inputMenu))
                 .addGap(18, 18, 18)
                 .addComponent(buatMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -684,7 +702,7 @@ public class GUITubes extends javax.swing.JFrame {
     }//GEN-LAST:event_cbItemActionPerformed
 
     private void hapusPesananActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hapusPesananActionPerformed
-cbItem.addItem(tfNamaOrang.getText());
+        cbItem.addItem(tfNamaOrang.getText());
     }//GEN-LAST:event_hapusPesananActionPerformed
 
     private void buatRestoranActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buatRestoranActionPerformed
@@ -702,6 +720,19 @@ cbItem.addItem(tfNamaOrang.getText());
     private void inputMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputMenuActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_inputMenuActionPerformed
+
+    private void inputRestoranActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputRestoranActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_inputRestoranActionPerformed
+
+    private void inputTempatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputTempatActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_inputTempatActionPerformed
+
+    private void inputPajakActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inputPajakActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_inputPajakActionPerformed
 
     /**
      * @param args the command line arguments
